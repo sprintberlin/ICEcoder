@@ -13,7 +13,7 @@ include_once(dirname(__FILE__)."/settings-common.php");
 $username = "";
 if (isset($_POST['username']) && $_POST['username'] != "") {$username = strClean($_POST['username']."-");};
 if (isset($_SESSION['username']) && $_SESSION['username'] != "") {$username = strClean($_SESSION['username']."-");};
-$settingsFile = 'config-'.$username.str_replace(".","_",str_replace("www.","",$_SERVER['SERVER_NAME'])).'.php';
+$settingsFile = 'config-sitewide.php'; // one settings file for all domains, single user
 
 // Login is default
 $setPWorLogin = "login";
