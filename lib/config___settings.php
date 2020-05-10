@@ -6,9 +6,9 @@ $ICEcoderSettings = array(
 	"docRoot"		=> $_SERVER['DOCUMENT_ROOT'],
 	"demoMode"		=> false,
 	"devMode"		=> false,
-	"loginRequired"		=> true,
+	"loginRequired"		=> false,
 	"multiUser"		=> false,
 	"lineEnding"		=> "\n",
-	"enableRegistration"	=> true
+	"enableRegistration"	=> false
 );
 ?>
